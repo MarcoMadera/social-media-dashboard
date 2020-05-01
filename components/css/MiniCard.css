@@ -1,0 +1,20 @@
+
+.minicard{
+  padding: 10px;
+}
+
+.minicard-cont {
+  background-color: lavender;
+  width: 180px;
+  height: 70px;
+  color: black;
+  overflow: hidden;
+  border-radius: 10px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.minicard-views{
+  text-align: right;
+}
+

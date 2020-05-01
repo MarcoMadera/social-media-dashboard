@@ -1,0 +1,17 @@
+body{margin: 0;}
+.grid{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  column-gap: 1em;
+}
+
+.wrapper{
+  max-width: 1440px;
+  margin: auto;
+  border: red solid 2px;
+
+}
+
+.aling{
+  padding-left: 50px; 
+}
