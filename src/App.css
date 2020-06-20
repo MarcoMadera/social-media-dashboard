@@ -1,17 +1,44 @@
-body{margin: 0;}
-.grid{
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr 1fr;
-  column-gap: 1em;
+*{
+  margin: 0;
+  padding: 0;
 }
 
-.wrapper{
-  max-width: 1440px;
-  margin: auto;
-  border: red solid 2px;
-
+@media (prefers-color-scheme: dark){
+  :root{
+    --BG: hsl(230, 17%, 14%);
+    --BGPattern: hsl(232, 19%, 15%);
+    --CardBG: hsl(228, 28%, 20%);
+    --Text: hsl(228, 34%, 66%);
+    --Titles: hsl(0, 0%, 100%);
+    --Toggle: linear-gradient(to left, hsl(146, 68%, 55%), hsl(210, 78%, 56%)) ;
+  }
 }
 
-.aling{
-  padding-left: 50px; 
+:root{
+  --LimeGreen: hsl(163, 72%, 41%);
+  --BrightRed: hsl(356, 69%, 56%);
+  --Facebook: hsl(208, 92%, 53%);
+  --Twitter: hsl(203, 89%, 53%);
+  --Instagram: linear-gradient(to left, hsl(329, 70%, 58%), hsl(37, 97%, 70%)) ;
+  --YouTube: hsl(348, 97%, 39%);
+  --Toggle: hsl(230, 22%, 74%);
+
+  --BG: hsl(0, 0%, 100%);
+  --BGPattern: hsl(225, 100%, 98%);
+  --CardBG: hsl(227, 47%, 96%);
+  --Text: hsl(228, 12%, 44%);
+  --Titles: hsl(230, 17%, 14%);
+}
+
+.dark-mode{
+  --BG: hsl(230, 17%, 14%);
+  --BGPattern: hsl(232, 19%, 15%);
+  --CardBG: hsl(228, 28%, 20%);
+  --Text: hsl(228, 34%, 66%);
+  --Titles: hsl(0, 0%, 100%);
+  --Toggle: linear-gradient(to left, hsl(146, 68%, 55%), hsl(210, 78%, 56%)) ;
+}
+
+body{
+  background: var(--BG)
 }

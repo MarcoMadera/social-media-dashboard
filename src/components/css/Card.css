@@ -1,0 +1,87 @@
+.content{
+  margin: -47px 0 0 0;
+  padding: 0 1.5rem 0rem 1.5rem;
+}
+
+.card{
+  font-family: 'Inter', sans-serif;
+  position: relative;
+  margin: 0 auto 24px auto;
+  vertical-align: middle;
+}
+
+.card-cont {
+  display: contents;
+  vertical-align: middle;
+  text-align: center;
+  overflow: hidden;
+}
+
+.card-content{
+  border-radius: 0 0 6px 6px;
+  background-color: var(--CardBG);
+  padding: 20px;
+  vertical-align: middle;
+}
+
+.facebookIcon.card:before {
+  background: var(--Facebook);
+}
+
+.twitterIcon.card:before{
+  background: var(--Twitter);
+}
+
+.instagramIcon.card:before{
+  background: var(--Instagram);
+}
+
+.youtubeIcon.card:before{
+  background: var(--YouTube);
+}
+
+.card:before {
+  content: "";
+  height: 4.5px;
+  display: block;
+  border-radius: 6px 6px 0 0;
+}
+
+.card-social{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: var(--Text);
+  font-size: .77rem;
+  font-weight: 700;
+  padding: 8px;
+}
+
+.card-followers-count{
+  padding: 10.3px 0 0 0;
+  font-weight: 800;
+  font-size: 3.49rem;
+  color: var(--Titles)
+}
+
+.card-followers{
+  letter-spacing: 6px;
+  font-size: 12px;
+  color: var(--Text);
+}
+
+.card-followers-today{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 1.6rem 0 0.4rem;
+  font-size: 0.75rem;
+  font-weight: 700;
+}
+
+.card-followers-today.up{
+  color: var(--LimeGreen)
+}
+.card-followers-today.down{
+  color: var(--BrightRed)
+}

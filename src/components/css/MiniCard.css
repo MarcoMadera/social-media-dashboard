@@ -1,0 +1,69 @@
+.minicard{
+  font-family: 'Inter', sans-serif;
+  position: relative;
+  margin: 0px auto 20px auto;
+  vertical-align: middle;
+}
+
+.minicard__cont {
+  display: block;
+  overflow: hidden;
+}
+
+.minicard__cont__left{
+  float: left;
+}
+
+.minicard__cont__right{
+  margin-right: 10px;
+  float: right;
+}
+
+.minicard__cont_right__container{
+  margin-top: 10px;
+  float: right;
+}
+
+.minicard__cont_right__percent{
+  display: flex;
+  align-items: center;
+}
+
+.minicard__cont_right__socialIcon, .minicard__cont_right__percent{
+  text-align: end;
+}
+
+.minicard__cont_right__percent{
+  font-size: 0.75rem;
+  font-weight: 700;
+  margin: 28px 0px 0px 0px;
+}
+
+.minicard__content{
+  border-radius: 6px;
+  background-color: var(--CardBG);
+  padding: 22px 21px;
+  vertical-align: middle;
+}
+
+.minicard__cont__left__text{
+  color: var(--Text);
+  font-size: 0.9rem;
+  font-weight: 700;
+}
+
+.minicard__cont__left__title{
+  display: block;
+  margin: 25px 0 0 0;
+  color: var(--Titles);
+  font-size: 2rem;
+  font-weight: 700;
+}
+
+.minicard__cont_right__percent.up{
+  color: var(--LimeGreen)
+}
+
+.minicard__cont_right__percent.down{
+  color: var(--BrightRed)
+}
