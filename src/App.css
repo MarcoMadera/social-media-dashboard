@@ -39,6 +39,11 @@
   --Toggle: linear-gradient(to left, hsl(146, 68%, 55%), hsl(210, 78%, 56%)) ;
 }
 
+html {
+  width: 100vw;
+  overflow-x: hidden;
+}
+
 body{
-  background: var(--BG)
+  background: var(--BG);
 }

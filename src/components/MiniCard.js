@@ -13,7 +13,7 @@ let MiniCard = (props) => {
     socialtag = "down";
   }
   return (
-    <div className={`minicard ${props.social}`}>
+    <div className="minicard">
       <div className="minicard__content">
         <div className="minicard__cont">
           <div className="minicard__cont__left">

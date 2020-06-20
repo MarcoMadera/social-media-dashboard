@@ -4,6 +4,7 @@ import facebookIcon from "../images/icon-facebook.svg";
 import twitterIcon from "../images/icon-twitter.svg";
 import instagramIcon from "../images/icon-instagram.svg";
 import youtubeIcon from "../images/icon-youtube.svg";
+import "./css/Cards.css";
 
 let Cards = () => {
   return (

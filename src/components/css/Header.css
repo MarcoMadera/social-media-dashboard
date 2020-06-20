@@ -83,3 +83,24 @@ hr{
   display: block;
   float: right;
 }
+
+@media screen and (max-width: 1440px) and (min-width: 1124px) {
+  hr {
+    display: none;
+  }
+  .header{
+    padding: 1rem 8rem 7rem;
+  }
+  .header__grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+  .header__content__grid{
+    display: inline-flex;
+    align-items: center;
+    justify-self: end
+  }
+  .header__content__grid__darkMode{
+    padding: 0 10px 0 0;
+  }
+}

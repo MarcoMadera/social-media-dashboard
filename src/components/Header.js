@@ -14,23 +14,23 @@ function Header(props) {
   let onchange = () => {
     if (switchRef.current.checked == true) {
       document.body.classList.add("dark-mode");
-      console.log("if3");
       return;
     }
     if (switchRef.current.checked == false) {
       document.body.classList.remove("dark-mode");
-      console.log("if1");
       return;
     }
   };
   return (
     <div className="header">
-      <div className="header__content">
-        <h1 className="header__content__title">Social Media Dashboard</h1>
-        <h2 className="header__content__followers">
-          Total Followers: {props.followers}
-        </h2>
-        <hr />
+      <div className="header__grid">
+        <div className="header__content">
+          <h1 className="header__content__title">Social Media Dashboard</h1>
+          <h2 className="header__content__followers">
+            Total Followers: {props.followers}
+          </h2>
+          <hr />
+        </div>
         <div className="header__content__grid">
           <p className="header__content__grid__darkMode">Dark Mode</p>
           <input

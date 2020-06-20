@@ -67,3 +67,13 @@
 .minicard__cont_right__percent.down{
   color: var(--BrightRed)
 }
+
+
+@media screen and (max-width: 1440px) and (min-width: 1124px) {
+  .minicard__content{
+    margin: 0 10px 0 10px;
+  }
+  .minicard{
+    width: 100%;
+  }
+}
